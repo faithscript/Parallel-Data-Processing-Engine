@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <fstream>
-#include <mutex>
+#include <mutex> // thread synchronization
 #include <vector>
 #include <optional>
 

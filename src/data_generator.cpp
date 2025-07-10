@@ -16,7 +16,7 @@ void DataGenerator::generate(const std::string& filename, size_t size_mb) {
         line.clear();
         for (int i = 0; i < cols; ++i) {
             line += std::to_string(dist(rng));
-            if (i < cols - 1) line += ",";
+            if (i < cols - 1) line += ", ";
         }
         line += "\n";
         file << line;
