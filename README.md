@@ -1,6 +1,7 @@
 # Parallel-Data-Processing-Engine
 
 This was something I thought through a few months ago and finally implemented, focusing on clean design, efficiency, and extensibility. I will be adding finance data structures and modifications, as this is intended to cater towards finance.
+My laptop could recently handle 2048 threads with no issues, and the csv generator can create files of up to 100GB as well. I'm yet to find a limit to these numbers, but after a certain threshold there will probably be diminishing returns performance-wise.
 
 ## Features
 - **ThreadPool**: Efficiently manages worker threads for parallel processing
