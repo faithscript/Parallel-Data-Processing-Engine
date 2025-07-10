@@ -1,6 +1,6 @@
 # Parallel-Data-Processing-Engine
 
-This project is a high-performance, multi-threaded data processing pipeline in modern C++. It is something I thought through a few months ago and finally implemented, focusing on clean design, efficiency, and extensibility.
+This was something I thought through a few months ago and finally implemented, focusing on clean design, efficiency, and extensibility. I will be adding finance data structures and modifications, as this is intended to cater towards finance.
 
 ## Features
 - **ThreadPool**: Efficiently manages worker threads for parallel processing
